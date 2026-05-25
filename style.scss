@@ -484,14 +484,14 @@ nav {
         padding: 2px 9px;
         color: $link-color;
         background-color: $tag-index-label-background-color;
-        border: 1px solid rgba(0, 109, 204, 0.12);
+        border: 1px solid rgba($link-color, 0.16);
         border-radius: 999px;
         line-height: 1.5;
 
         &:hover {
-          color: #174D7D;
-          background-color: rgba(121, 189, 242, 0.28);
-          border-color: rgba(121, 189, 242, 0.62);
+          color: $link-lighten-color;
+          background-color: rgba($blue-fresh, 0.16);
+          border-color: rgba($link-color, 0.3);
         }
       }
     }
@@ -591,9 +591,9 @@ nav {
   line-height: 1.45;
 
   &:hover, &:active {
-    color: #3D9FEA;
+    color: $link-lighten-color;
     background: transparent;
-    border-color: #3D9FEA;
+    border-color: $link-lighten-color;
   }
 }
 
@@ -619,9 +619,9 @@ nav {
   z-index: 4;
   padding: 60px 24px 0;
   overflow-y: auto;
-  background: rgba(246, 250, 253, 0.92);
+  background: $background-lighten-color;
   border-left: 1px solid $divider-color;
-  border-right: 1px solid rgba(216, 232, 247, 0.6);
+  border-right: 1px solid rgba($divider-color, 0.7);
   
   &:before{
     content:"目录";
@@ -683,9 +683,9 @@ nav {
       box-shadow: 0 10px 24px $card-shadow-color;
 
       &:hover, &:focus {
-        color: #174D7D;
-        border: 1px solid rgba(121, 189, 242, 0.62);
-        background-color: rgba(121, 189, 242, 0.24);
+        color: $link-lighten-color;
+        border: 1px solid rgba($link-color, 0.3);
+        background-color: rgba($blue-fresh, 0.16);
       }
     }
   }
@@ -704,9 +704,9 @@ nav {
       box-shadow: 0 10px 24px $card-shadow-color;
 
       &:hover, &:focus {
-        color: #174D7D;
-        border: 1px solid rgba(121, 189, 242, 0.62);
-        background-color: rgba(121, 189, 242, 0.24);
+        color: $link-lighten-color;
+        border: 1px solid rgba($link-color, 0.3);
+        background-color: rgba($blue-fresh, 0.16);
       }
     }
   }
@@ -755,17 +755,17 @@ nav {
       margin: 4px;
       color: $link-color;
       background-color: $tag-index-label-background-color;
-      border: 1px solid rgba(0, 109, 204, 0.12);
+      border: 1px solid rgba($link-color, 0.16);
       border-radius: 999px;
       overflow: hidden;
 
       &:hover {
-        color: #174D7D;
-        background-color: rgba(121, 189, 242, 0.28);
-        border-color: rgba(121, 189, 242, 0.62);
+        color: $link-lighten-color;
+        background-color: rgba($blue-fresh, 0.16);
+        border-color: rgba($link-color, 0.3);
 
         span.count {
-          background-color: rgba(121, 189, 242, 0.28);
+          background-color: rgba($blue-fresh, 0.16);
         }
       }
 

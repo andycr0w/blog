@@ -10,15 +10,15 @@
 
 // Colors
 $blue: #006DCC;
-$blue-light: #EAF4FF;
-$blue-lighter: #F6FAFD;
-$blue-border: #D8E8F7;
-$blue-soft: #BBDDF8;
-$blue-fresh: #79BDF2;
-$bird-gray: #767575;
-$beak-gray: #BFBFBF;
-$card-background-color: #FFFFFF;
-$card-shadow-color: rgba(0, 109, 204, 0.08);
+$blue-light: #F2E9DA;
+$blue-lighter: #FAF7F0;
+$blue-border: #E2D7C6;
+$blue-soft: #D9C7AB;
+$blue-fresh: #B89468;
+$bird-gray: #70665C;
+$beak-gray: #D7CEC2;
+$card-background-color: #FFFDF8;
+$card-shadow-color: rgba(87, 68, 44, 0.08);
 
 // Grays
 $black: #000;
@@ -42,23 +42,23 @@ $base-font-size: 16px;
 $small-font-size: 14px;
 
 // Colors
-$base-color: #233447;
-$base-lighten-color: #62768A;
-$base-lightener-color: #9AAEC1;
+$base-color: #2F2A24;
+$base-lighten-color: #6D6459;
+$base-lightener-color: #9C9183;
 
 $background-color: $blue-lighter;
-$background-lighten-color: rgba(234, 244, 255, 0.58);
+$background-lighten-color: rgba(255, 252, 246, 0.92);
 
 $text-color: $base-color;
-$link-color: $blue;
-$link-lighten-color: #2B8EE8;
+$link-color: #4E6B7A;
+$link-lighten-color: #6A8797;
 $link-bghv-color: $blue-light;
 $divider-color: $blue-border;
 
 $error-color:$oc-red-8;
 
 $table-border-color: $blue-border;
-$table-background-color: $blue-light;
+$table-background-color: #F6EFE2;
 
 $blockquote-color: $base-lighten-color;
 $blockquote-border-color: $blue-soft;
@@ -67,13 +67,13 @@ $footnote-link-border-color: $blue-border;
 $footnote-link-background-over-color: $blue-light;
 
 // $selection-color: $oc-black;
-$selection-background-color: $blue-soft;
+$selection-background-color: #E7D8BE;
 
 $tag-index-label-background-color: $blue-light;
-$tag-index-count-background-color: rgba(0, 109, 204, 0.12);
+$tag-index-count-background-color: rgba(107, 91, 77, 0.12);
 
 $footer-border-color: rgba(255, 255, 255, 0.18);
-$footer-background-color: rgba(0, 84, 158, 0.24);
+$footer-background-color: rgba(255, 255, 255, 0.08);
 
 // List
 $li-bottom-space: 0.4em;
