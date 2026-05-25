@@ -4,5 +4,6 @@ title: 关于
 permalink: /about/
 ---
 
-这是一个关于页面，目前还在编辑中。
-This is an About page, currently under editing.
+这里是 AndyCrow 的个人博客，用来记录技术笔记、项目实践和日常思考。
+
+内容会持续整理更新。
