@@ -8,7 +8,7 @@ comments: false
 toc: true
 ---
 
-命令行里反复用到的高频快捷键和基础指令，按场景整理，并加上常见助记，方便更快记住。
+命令行里反复用到的高频快捷键和基础指令。
 
 <!-- more -->
 
@@ -30,6 +30,15 @@ toc: true
 | `man <命令>` | manual | 查看某条命令的帮助说明，常见于 Linux / macOS。 |
 | `which <命令>` | 路径 | 查看命令程序所在位置。 |
 | `Get-Help <命令>` | PowerShell 帮助 | 在 PowerShell 中查看命令帮助。 |
+
+## 复制、粘贴与会话操作
+
+| 快捷键 / 指令 | 助记 | 用途 |
+| --- | --- | --- |
+| `Ctrl + Shift + C` | Copy | 复制终端中选中的内容，常见于现代终端。 |
+| `Ctrl + Shift + V` | Paste | 把剪贴板内容粘贴到终端。 |
+| `Shift + Insert` | Insert | 在部分终端中执行粘贴操作。 |
+| `Ctrl + PageUp / PageDown` | 上下翻页 | 向上 / 向下翻终端输出内容。 |
 
 ## 历史记录与控制
 
@@ -83,11 +92,3 @@ toc: true
 | `mkdir <目录名>` | make directory | 新建文件夹。 |
 | `rm <文件名>` | remove | 删除指定文件，使用前要确认目标无误。 |
 
-## 复制、粘贴与会话操作
-
-| 快捷键 / 指令 | 助记 | 用途 |
-| --- | --- | --- |
-| `Ctrl + Shift + C` | Copy | 复制终端中选中的内容，常见于现代终端。 |
-| `Ctrl + Shift + V` | Paste | 把剪贴板内容粘贴到终端。 |
-| `Shift + Insert` | Insert | 在部分终端中执行粘贴操作。 |
-| `Ctrl + PageUp / PageDown` | 上下翻页 | 向上 / 向下翻终端输出内容。 |
