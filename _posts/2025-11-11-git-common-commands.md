@@ -72,6 +72,64 @@ toc: true
 | `git stash pop` | 恢复最近一次保存的现场，并从列表中移除。 |
 | `git stash apply` | 恢复某次保存的现场，但保留 stash 记录。 |
 
+## 常用 Git 工作流程
+
+### 日常提交代码
+
+```bash
+git status
+git add .
+git commit -m "本次修改说明"
+git push
+```
+
+作用：先确认改动，再暂存、提交，最后推送到远程仓库。
+
+### 只提交指定文件
+
+```bash
+git status
+git add src/app.js
+git add src/utils.js
+git commit -m "修复首页交互问题"
+git push
+```
+
+作用：只提交本次真正相关的文件，避免把无关修改一起推上去。
+
+### 新分支首次提交并推送
+
+```bash
+git switch -c feature/login-page
+git add .
+git commit -m "新增登录页"
+git push -u origin feature/login-page
+```
+
+作用：新建分支开发功能，并在首次推送时建立本地与远程分支的跟踪关系。
+
+### 先拉最新代码再继续提交
+
+```bash
+git pull
+git status
+git add .
+git commit -m "同步后继续完善功能"
+git push
+```
+
+作用：先同步远程最新代码，减少提交后再处理冲突的概率。
+
+### 提交后发现漏了文件
+
+```bash
+git add .
+git commit --amend
+git push --force-with-lease
+```
+
+作用：补充最近一次提交内容。只适合你确认是在修改自己刚刚的提交历史时使用。
+
 ## 常见使用建议
 
 1. 小改动用 `git add <文件名>`，能避免把不相关内容一起提交。
