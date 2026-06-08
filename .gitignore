@@ -1,0 +1,13 @@
+.bundle/
+.bundle-user/
+.jekyll-cache/
+.sass-cache/
+_site/
+vendor/
+Gemfile
+Gemfile.lock
+serve.cmd
+serve.ps1
+preview.cmd
+serve.stdout.log
+serve.stderr.log
