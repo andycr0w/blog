@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://andycr0w.github.io/blog/</loc>
+  <lastmod>2026-06-08T13:01:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/about/</loc>
+  <lastmod>2026-06-08T13:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/archive/</loc>
+  <lastmod>2026-06-08T13:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/tags/</loc>
+  <lastmod>2026-06-08T13:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/tum-eikon-kde-shortcuts/</loc>
+  <lastmod>2026-06-08T13:01:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/system-shortcuts/</loc>
+  <lastmod>2026-06-08T13:01:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/git-common-commands/</loc>
+  <lastmod>2026-06-08T13:01:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/command-line-shortcuts/</loc>
+  <lastmod>2026-06-08T13:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/browser-web-shortcuts/</loc>
+  <lastmod>2026-06-08T13:01:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/tic80-shortcuts/</loc>
+  <lastmod>2026-06-08T13:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/math-test/</loc>
+  <lastmod>2026-06-08T13:01:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/document/</loc>
+  <lastmod>2026-06-08T13:01:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://andycr0w.github.io/blog/chinese-markdown-cheatsheet/</loc>
+  <lastmod>2026-06-08T13:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
